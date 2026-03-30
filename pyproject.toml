@@ -6,5 +6,9 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "besos>=2.2.3",
+    "dartwork-mpl",
     "eppy>=0.5.69",
 ]
+
+[tool.uv.sources]
+dartwork-mpl = { git = "https://github.com/dartwork-repo/dartwork-mpl" }
